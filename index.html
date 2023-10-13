@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="icon" type="image/x-icon" href="/images/youtube.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+  <!--<div class="container border"> container</div> //this has some margin to left and right so add fluid to container
+  
+my-5 margin on y axis
+mx-3 margin on x axis
+
+
+-->
+
+
+
+<div class="container-fluid  text-center ">
+    <div class="row mt-1 navbr">
+        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-3">
+        <img class="menuicon" onclick="change()" src="images/menu.png" width="20px"></img>&nbsp;&nbsp;&nbsp;
+        <img class="ytimg" src="images/pngwing.com.png" width="100px"></img>
+    </div>
+     <div class="col-4  ms-auto inputbox">
+        <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2" style="border-top-left-radius: 50px; border-bottom-left-radius: 50px;">
+        <span class="input-group-text" id="basic-addon2" style="border-top-right-radius: 50px; border-bottom-right-radius: 50px;"><img src="images/search.png" width="20px"></img></span>
+      </div>
+      </div>
+     
+     <div class="ms-auto col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-3  custom-margin">
+      <img class="upload" src="images/upload.png" width="20px"></img>
+      <img class="search" src="images/search.png" width="27px"></img>
+     <img class="bell" src="images/bell.png" width="20px"></img>
+     <img src="images/unnamed (3).jpg" style="border-radius: 50%;" width="30px"></img>&nbsp;
+    </div>
+  </div>
+  <div class="container-fluid  text-center" >
+          
+    <div class="col">
+      <div class="all">
+      <a href="#"> <button type="button" style="background-color: black; color: aliceblue;" class="btn costom-button1 ">All</button></a>
+      <a href="#"> <button type="button" class="btn costom-button1">Music</button></a>
+      <a href="#"> <button type="button" class="btn costom-button1">Gaming</button></a>
+      <a href="#"> <button type="button" class="btn costom-button1">Steam</button></a>
+      <a href="#"> <button type="button" class="btn costom-button1">Mixes</button></a>
+      <a href="#"> <button type="button" class="btn costom-button1">War Thunder</button></a>
+      <a href="#"> <button type="button" class="btn costom-button1">Valorant</button></a>
+      <a href="#"> <button type="button" class="btn costom-button1">Nusrat Fateh Ali Khan</button></a>
+      <a href="#"> <button type="button" class="btn costom-button1">Steam</button></a>
+      <a href="#"> <button type="button" class="btn costom-button1">Counter-Strike2</button></a>
+      <a href="#"> <button type="button" class="btn costom-button1">Watched</button></a>
+      <a href="#"> <button type="button" class="btn costom-button1">Bollywood Music</button></a>
+      <a href="#"> <button type="button" class="btn costom-button1">Live</button></a>
+      <a href="#"> <button type="button" class="btn costom-button1">New to you</button></a>
+    </div>
+    </div>
+    <div class="row mt-1 cutom-main-row" >
+      <div class="col-1 scroll-container2 displayit2">
+        <div class="costom-col1-2" >
+  
+        
+  
+     
+         
+      <a href="#"> <button type="button" class="btn costom-button3" style=" margin-top: 20px;"><img class="icons2" src="images/home.png" width="18px"></img> Home</button></a><br>
+      <a href="#"> <button type="button" class="btn costom-button3"><img class="icons2" src="images/YouTube_Shorts_(Outline).svg" width="18px"></img> Shorts</button></a><br>
+      <a href="#"> <button type="button" class="btn costom-button3"><img class="icons2" src="images/menu_youtube_social_media_subs_subscription_icon_197393.png" width="22px"></img>Subscription</button></a><br>
+      <a href="#"> <button type="button" class="btn costom-button3"><img class="icons2" src="images/library_2989835.png" width="21px"></img> Library</button></a><br>    
+
+  </div>
+    </div>
+
+
+
+    <div class="col-2  scroll-container displayit1" >
+      <div class="costom-col1" >
+
+      
+
+   
+       
+    <a href="#"> <button type="button" class="btn costom-button" style=" background: #ebebeb; margin-top: 15px;"><img class="icons" src="images/home.png" width="18px"></img> Home</button></a><br>
+    <a href="#"> <button type="button" class="btn costom-button"><img class="icons" src="images/YouTube_Shorts_(Outline).svg" width="18px"></img> Shorts</button></a><br>
+    <a href="#"> <button type="button" class="btn costom-button"><img class="icons" src="images/menu_youtube_social_media_subs_subscription_icon_197393.png" width="20px"></img> Subscription</button></a><br>
+        
+      <hr>
+   <a href="#"> <button type="button" class="btn costom-button"><img class="icons" src="images/library_2989835.png" width="20px"></img> Library</button></a><br>
+   <a href="#"> <button type="button" class="btn costom-button"><img class="icons" src="images/history.png" width="18px"></img> History</button></a><br>
+   <a href="#"> <button type="button" class="btn costom-button"><img class="icons" src="images/youtube-video-icon-png-27.jpg" width="17px"></img> Your Videos</button></a><br>
+   <a href="#"> <button type="button" class="btn costom-button"><img class="icons" src="images/watch-later.svg" width="21px"></img> Watch Later</button></a><br>
+   <a href="#"> <button type="button" class="btn costom-button"><img class="icons" src="images/like.png" width="18px"></img> Liked videos</button></a><br>
+   <a href="#"> <button type="button" class="btn costom-button"><img class="icons" src="images/queue.png" width="18px"></img> any playlist</button></a><br>
+   <hr>
+
+    <div class="alinging">Subscriptions</div>
+    <a href="#"> <button type="button" class="btn costom-button"><img class="usericons" src="images/channels4_profile.jpg" width="21px"></img> Reversing World</button></a><br>
+    <a href="#"> <button type="button" class="btn costom-button"><img class="usericons" src="images/channels4_profile (1).jpg" width="21px"></img> Smart Risk</button></a><br>
+    <a href="#"> <button type="button" class="btn costom-button"><img class="usericons" src="images/unnamed.jpg"  width="21px"></img> Jooviers Gems</button></a><br>  
+    <hr> 
+    <div class="alinging">Explore</div>
+    <a href="#"> <button type="button" class="btn costom-button"><img class="icons" src="images/trending-topic.png" width="20px"></img> Trending</button></a><br>
+    <a href="#"> <button type="button" class="btn costom-button"><img class="icons" src="images/music.png" width="18px"></img> Music</button></a><br>
+    <a href="#"> <button type="button" class="btn costom-button"><img class="icons" src="images/console.png" width="17px"></img> Gaming</button></a><br>
+    <a href="#"> <button type="button" class="btn costom-button"><img class="icons" src="images/trophy.png" width="21px"></img> Sports</button></a><br>
+  <hr>
+  <a href="#"> <button type="button" class="btn costom-button"><img class="icons" src="images/setting.png" width="21px"></img> Settings</button></a><br><br>
+
+
+
+
+</div>
+  </div>
+  
+
+  
+  
+   
+
+        <div class="col custon-col2">
+          <div class="section">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-4 custom-card1">
+        
+        <div class="col blocking1">
+          <div class="card custom-card">
+            <img src="images/farytale.PNG" class="card-img-top custom-img" alt="...">
+            <img class="channelimg" src="images/channels4_profile (2).jpg" width="30px">
+            <div class="card-body costom-body">
+              <h5 class="card-title customtitle">Fairy Tale 2 EP 08 - PART 01 [CC]</h5>
+              <p class="card-text customchannelname">Hum tv</p>
+              <p class="card-text customviews">342 veiws ,6 Hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col blocking2">
+          <div class="card custom-card">
+            <img src="images/amazinggames.PNG" class="card-img-top custom-img" alt="...">
+            <img class="channelimg" src="images/unnamed (1).jpg" width="30px">
+            <div class="card-body costom-body">
+              <h5 class="card-title customtitle">TOP 35 Free FPS Games to Play Right Now!</h5>
+              <p class="card-text customchannelname">undercoverdudes</p>
+              <p class="card-text customviews">34k veiws , 12 Hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col blocking3">
+          <div class="card custom-card">
+            <img src="images/f16istoogood.PNG" class="card-img-top custom-img" alt="...">
+            <img class="channelimg" src="images/channels4_profile (3).jpg" width="30px">
+            <div class="card-body costom-body">
+              <h5 class="card-title customtitle">F-16C Experience.mp4</h5>
+              <p class="card-text customchannelname">Malzi</p>
+              <p class="card-text customviews">890 veiws ,12 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col blocking4">
+          <div class="card custom-card">
+            <img src="images/neverlieaway.PNG" class="card-img-top custom-img" alt="...">
+            <img class="channelimg" src="images/unnamed (2).jpg" width="30px">
+            <div class="card-body costom-body">
+              <h5 class="card-title customtitle">Never lie away perfectly reverb and slowed</h5>
+              <p class="card-text customchannelname">DopeLine</p>
+              <p class="card-text customviews">1.2M veiws ,2 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card custom-card">
+            <img src="images/plane.PNG" class="card-img-top custom-img" alt="...">
+            <img class="channelimg" src="images/channels4_profile (4).jpg" width="30px">
+            <div class="card-body costom-body">
+              <h5 class="card-title customtitle">NUCLEAR BOMBERS in War Thunder!</h5>
+              <p class="card-text customchannelname">Vadact</p>
+              <p class="card-text customviews">2.6k veiws ,23 Hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card custom-card">
+            <img src="images/music1.PNG" class="card-img-top custom-img" alt="...">
+            <img class="channelimg" src="images/channels4_profile (5).jpg" width="30px">
+            <div class="card-body costom-body">
+              <h5 class="card-title customtitle">Night Lofi Songs | Mind relaxing songs | slowed</h5>
+              <p class="card-text customchannelname">Glam Music</p>
+              <p class="card-text customviews">2M veiws ,3 years ago</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+     
+      <br><br>
+      <div class="col">
+        <div class="maincon">
+          <div class="lefting">
+         <img  src="/images/pngaaa.com-5593493.png" width="25px" alt="shorts">&nbsp;&nbsp;&nbsp; Shorts</div>
+         <img class="righting" src="/images/close.png" width="24px" height="24px" alt="cross">
+        
+        </div>
+
+
+        <br>
+        <div class="row  custom-card12 shorts">
+        
+          <div class="col" >
+            <div class="card custom-card23">
+              <img src="images/unsatisfyiing.PNG" class="card-img-top custom-img2" alt="...">
+              <div class="card-body">
+                <h5 class="card-title customtitle2">The Most Unsatisfying Elements of War Thunder Part 4</h5>
+                <p class="card-text customviews2">1.2M veiws </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card custom-card23">
+              <img src="images/nisan.PNG" class="card-img-top custom-img2" alt="...">
+              <div class="card-body ">
+                <h5 class="card-title customtitle2">World's Fastest Drift 🥶 #shorts #supercars</h5>
+                <p class="card-text customviews2">30k veiws </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card custom-card23">
+              <img src="images/kydee.PNG" class="card-img-top custom-img2" alt="...">
+              <div class="card-body ">
+                <h5 class="card-title customtitle2">tenz explains how to play better in valorant</h5>
+                <p class="card-text customviews2">7.4M veiws </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card custom-card23">
+              <img src="images/mostincrediblehypercar.PNG" class="card-img-top custom-img2" alt="...">
+              <div class="card-body ">
+                <h5 class="card-title customtitle2">Most incredible hyper car ever built</h5>
+                <p class="card-text customviews2">90k veiws </p>
+              </div>
+            </div>
+          </div>
+          <div class="col" >
+            <div class="card custom-card23">
+              <img src="images/unsatisfyiing.PNG" class="card-img-top custom-img2" alt="...">
+              <div class="card-body">
+                <h5 class="card-title customtitle2">The Most Unsatisfying Elements of War Thunder Part 4</h5>
+                <p class="card-text customviews2">1.2M veiws </p>
+              </div>
+            </div>
+          </div>
+       
+          </div>
+          <!-- <button class="scroll-button" onclick="scrollItems()">Scroll Items</button> -->
+          <hr><br><br>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-4 custom-card1">
+        
+            <div class="col">
+              <div class="card custom-card">
+                <img src="images/breach.PNG" class="card-img-top custom-img" alt="...">
+                <img class="channelimg" src="images/channels4_profile (6).jpg" width="30px">
+                <div class="card-body costom-body">
+                  <h5 class="card-title customtitle">SUNSET'S A BREACH MAP!!!!!</h5>
+                  <p class="card-text customchannelname">JoeDaBozo</p>
+                  <p class="card-text customviews">93k veiws ,2 days ago</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card custom-card">
+                <img src="images/song.PNG" class="card-img-top custom-img" alt="...">
+                <img class="channelimg" src="images/channels4_profile (7).jpg" width="30px">
+                <div class="card-body costom-body">
+                  <h5 class="card-title customtitle">Another Love -- LO-FI -- Music -- Reverb and Slowed </h5>
+                  <p class="card-text customchannelname">Serenity Sounds</p>
+                  <p class="card-text customviews">3M veiws ,1 year ago</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col">
+              <div class="card custom-card">
+                <img src="images/farytale.PNG" class="card-img-top custom-img" alt="...">
+                <img class="channelimg" src="images/channels4_profile (2).jpg" width="30px">
+                <div class="card-body costom-body">
+                  <h5 class="card-title customtitle">Fairy Tale 2 EP 08 - PART 01 [CC]</h5>
+                  <p class="card-text customchannelname">Hum tv</p>
+                  <p class="card-text customviews">342 veiws ,6 Hours ago</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card custom-card">
+                <img src="images/amazinggames.PNG" class="card-img-top custom-img" alt="...">
+                <img class="channelimg" src="images/unnamed (1).jpg" width="30px">
+                <div class="card-body costom-body">
+                  <h5 class="card-title customtitle">TOP 35 Free FPS Games to Play Right Now!</h5>
+                  <p class="card-text customchannelname">undercoverdudes</p>
+                  <p class="card-text customviews">34k veiws , 12 Hours ago</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card custom-card">
+                <img src="images/f16istoogood.PNG" class="card-img-top custom-img" alt="...">
+                <img class="channelimg" src="images/channels4_profile (3).jpg" width="30px">
+                <div class="card-body costom-body">
+                  <h5 class="card-title customtitle">F-16C Experience.mp4</h5>
+                  <p class="card-text customchannelname">Malzi</p>
+                  <p class="card-text customviews">890 veiws ,12 days ago</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card custom-card">
+                <img src="images/neverlieaway.PNG" class="card-img-top custom-img" alt="...">
+                <img class="channelimg" src="images/unnamed (2).jpg" width="30px">
+                <div class="card-body costom-body">
+                  <h5 class="card-title customtitle">Never lie away perfectly reverb and slowed</h5>
+                  <p class="card-text customchannelname">DopeLine</p>
+                  <p class="card-text customviews">1.2M veiws ,2 years ago</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card custom-card">
+                <img src="images/plane.PNG" class="card-img-top custom-img" alt="...">
+                <img class="channelimg" src="images/channels4_profile (4).jpg" width="30px">
+                <div class="card-body costom-body">
+                  <h5 class="card-title customtitle">NUCLEAR BOMBERS in War Thunder!</h5>
+                  <p class="card-text customchannelname">Vadact</p>
+                  <p class="card-text customviews">2.6k veiws ,23 Hours ago</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card custom-card">
+                <img src="images/music1.PNG" class="card-img-top custom-img" alt="...">
+                <img class="channelimg" src="images/channels4_profile (5).jpg" width="30px">
+                <div class="card-body costom-body">
+                  <h5 class="card-title customtitle">Night Lofi Songs | Mind relaxing songs | slowed</h5>
+                  <p class="card-text customchannelname">Glam Music</p>
+                  <p class="card-text customviews">2M veiws ,3 years ago</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card custom-card">
+                <img src="images/breach.PNG" class="card-img-top custom-img" alt="...">
+                <img class="channelimg" src="images/channels4_profile (6).jpg" width="30px">
+                <div class="card-body costom-body">
+                  <h5 class="card-title customtitle">SUNSET'S A BREACH MAP!!!!!</h5>
+                  <p class="card-text customchannelname">JoeDaBozo</p>
+                  <p class="card-text customviews">93k veiws ,2 days ago</p>
+                </div>
+              </div>
+            </div>
+           <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          </div>
+      </div>
+    </div>
+    </div>
+    
+   
+  </div>
+
+
+
+  </div>
+
+  <style>
+     @media only screen and (max-width: 1000px) {
+      
+    .custom-img2{
+      border-radius: 15px !important;
+      height: 300px !important;
+    }
+    .custom-card23{
+      border: none;
+      width: 200px !important;
+    
+    }
+    .customtitle2{
+      color: black;
+        font-size: 16px !important;
+      font-weight: 500 !important;
+      text-align: left !important;
+      }
+     }
+     @media only screen and (max-width: 705px) {
+     .ytimg{
+      margin-right:-65px !important ;
+     }
+     }
+     @media only screen and (max-width: 795px) {
+     .ytimg{
+      margin-right:-35px ;
+     }
+     }
+
+     @media only screen and (max-width: 600px) {
+      
+      .navbr{
+    
+      }
+      .ytimg{
+        
+        float: left;
+        margin-left: 0px !important;
+        text-align: left !important ;
+        align-items: left !important;
+        align-content: left !important;
+      }
+   
+.custom-margin{
+  margin-top: -32px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+.costom-col1-2{
+  display: none;
+}
+.menuicon{
+  display: none;
+}
+.inputbox{
+  display: none;
+}
+.blocking1{
+  display: none;
+}
+.blocking2{
+  display: none;
+}
+.blocking3{
+  display: none;
+}
+.blocking4{
+  display: none;
+}
+.section{
+      z-index: 1 !important;
+      margin-right: -20px;
+      margin-left: 0px !important;
+      margin-top: 10px !important;
+  }
+  .all{
+    margin-left: 0 !important;
+  }
+  .bell{
+    
+  }
+  .section::-webkit-scrollbar-thumb {
+  background: #ffffff !important;
+  border-radius: 15px;
+ 
+}
+  .upload{
+    display: none;
+  }
+  .search{
+    display: inline-block !important;
+    margin-right: 15px !important;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+  background-color: #ffffff;
+}
+}
+.search{
+  display: none;
+}
+.bell{
+  margin-right: 12px;
+}
+.upload{
+  margin-right: 12px !important;
+}
+    .displayit1{
+      display: none;
+      margin-left: -14px;
+    }
+    .displayit2{
+      display: block;
+      margin-left: -20px;
+    }
+    .costom-col1-2{
+      text-align: left;
+    
+    }
+    .cutom-main-row{
+      margin-top: -74px !important;
+    }
+    .lefting{
+      font-size: larger;
+      font-weight: 600;
+      
+    }
+    .maincon{
+      display: flex;
+  justify-content: space-between; /* This will push the images to the left and right edges of the container */
+    }
+
+    .custom-img2{
+      border-radius: 15px !important;
+      height: 450px;
+    }
+    .custom-img{
+      border-radius: 5px !important;
+    }
+    .all{
+      z-index: 10 !important;
+      text-align: left;
+     margin-left: 80px;
+     overflow-y: hidden;
+      overflow-x :scroll; /* Enable horizontal scrolling */
+      white-space: nowrap;
+    }
+    .custom-card1{
+      margin: -20px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .custom-card{
+      border: none;
+
+    }
+    .custom-card12{
+      display: flex;
+      flex-wrap: nowrap;
+     
+      overflow-x: scroll;
+    }
+    .custom-card23{
+      border: none;
+      width: 280px;
+    
+    }
+    .costom-body{
+      margin-top: -48px;
+      margin-left: 35px;
+    }
+    .channelimg{
+      border-radius: 50%;
+      margin-top: 10px;
+      margin-left: 10px;
+      text-align: left;
+    }
+    .customviews2{
+      text-align: left;
+      margin-top: 2px;
+    }
+    .customviews{
+      text-align: left;
+      margin-top: -15px;
+    }
+    .customchannelname{
+      text-align: left;
+      margin-top: -10px;
+    }
+    .customtitle{
+      color: black;
+      font-size: large;
+      font-weight: 600;
+      text-align: left;
+    }
+    .customtitle2{
+      color: black;
+      font-size: large;
+      font-weight: 600;
+      text-align: left;
+      }
+    .menuicon{
+      margin-left: -43px;
+    }
+    .custon-col2{
+      margin-top: 55px;
+      margin-right: -20px;
+      z-index: 1 !important;
+    }
+    .section{
+      z-index: 1 !important;
+      margin-left: 75px;
+      margin-top: -230px;
+      overflow-y: auto;
+  overflow-x: hidden; /* Enable vertical scrolling */
+  max-height: 95vh; /* Set a maximum height for the container; adjust as needed */
+ padding-right: 20px;
+    }
+    
+    body {
+  overflow: hidden;
+}
+    .costom-col1{
+  overflow-y: auto;
+
+  overflow-x: hidden; /* Enable vertical scrolling */
+  max-height: 95vh; /* Set a maximum height for the container; adjust as needed */
+ /* Set a width for the container; adjust as needed */
+    }
+    .scroll-container {
+ 
+  position: relative; /* Make the container relatively positioned */
+  max-height: 95vh; /* Set a maximum height for the container; adjust as needed */
+  width: 240px; /* Set a width for the container; adjust as needed */
+  overflow: hidden; /* Hide any content overflowing the container */
+}
+.scroll-container2{
+  position: relative; /* Make the container relatively positioned */
+  max-height: 95vh; /* Set a maximum height for the container; adjust as needed */
+  width: 100px; /* Set a width for the container; adjust as needed */
+  overflow: hidden; /* Hide any content overflowing the container */
+}
+.section::-webkit-scrollbar {
+  position: relative; /* Position the scrollbar absolutely within the container */
+  top: 0; /* Position it at the top of the container */
+  right: 0; /* Position it on the right side of the container */
+  width: 7px; /* Adjust the width of the scrollbar */
+}
+.section::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+.section::-webkit-scrollbar-thumb {
+  background: #777777;
+  border-radius: 15px;
+ 
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff; 
+  border-radius: 15px;
+ 
+}
+
+/* Handle on hover */
+.costom-col1:hover::-webkit-scrollbar-thumb {
+  background: #777777; 
+
+}
+/* Style the scrollbar to be fixed on the left side */
+.all::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  /* Set the left margin to position the scrollbar on the left side */
+}
+
+.all::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+.all::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+    .alinging{
+      margin-left: 2px;
+      text-align: left;
+      margin-top: -16px;
+    }
+    .usericons{
+      margin-right: 20px;
+      border-radius: 50%;
+    }
+     .icons{
+      margin-right: 20px;
+      
+     }
+     .icons2{
+      margin-right: 0px;
+      
+     }
+     .costom-button1{
+        margin-right: 15px;
+        margin-top: 15px;
+        margin-bottom: 22px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        font-size: small;
+        background-color: #ebebeb;
+
+       text-decoration: none;
+      
+     }
+     .costom-button1:hover{
+        background-color: #dfdfdf;
+        color: black;
+    }
+    .costom-button3{
+      text-align: center;
+        padding-top: 5px;
+        font-size: smaller;
+        width: 80px;
+       text-decoration: none;
+    }
+    .costom-button{
+        text-align: left;
+        margin-top: 2px;
+        padding-top: 5px;
+        font-size: small;
+        width: 200px;
+       text-decoration: none;
+       
+    }
+    .costom-button:hover{
+        background-color: #ebebeb;
+        color: black;
+    }
+    .custom-margin{
+        margin-right: 0 !important; /* Adjust the right margin to your desired spacing */
+        padding-right: 0 !important;
+    }
+  </style>
+  <script>
+    function scrollItems() {
+      var element3 = document.getElementsByClassName("shorts");
+  element3[0].scrollBy(0, 10); // Adjust the value as per your need
+}
+
+  function change(){
+    var element1 = document.getElementsByClassName("displayit1");
+    var element2 = document.getElementsByClassName("displayit2");
+    var element3 = document.getElementsByClassName("all");
+    var element4 = document.getElementsByClassName("section");
+
+  if (element1[0].style.display === "none") {
+    element1[0].style.display = "block";
+    element2[0].style.display = "none";
+    element3[0].style.marginLeft = "230px"; 
+    element4[0].style.marginLeft = "230px";
+    element4[0].style.marginTop = "-630px";
+  } else {
+    element1[0].style.display = "none";
+    element2[0].style.display = "block";
+    element3[0].style.marginLeft = "80px";
+    element4[0].style.marginLeft = "75px";
+    element4[0].style.marginTop = "-230px";
+  }
+  }
+  </script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
